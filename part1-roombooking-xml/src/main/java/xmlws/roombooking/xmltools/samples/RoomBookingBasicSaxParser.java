@@ -30,7 +30,7 @@ public class RoomBookingBasicSaxParser  {
         }
     }
 
-    public class RoomBookingBasicHandler extends DefaultHandler {
+    public static class RoomBookingBasicHandler extends DefaultHandler {
 
         public void startElement(String namespaceURI,
                                  String localName,
